@@ -5,10 +5,11 @@
   </head>
   <body>
     <h1>Mensaje LED-Matrix</h1>
-    <form action="/get">
-      <input type="text" name="input1">
-      <input type="submit" name="submit" value="Submit">
-    </form><br>
+    <form action= 'submit' method='POST'>
+      <input type='text' name= 'mensaje' placeholder= 'escribe tu mensaje...' maxlength='35' size=30>
+      <input type='submit' value='Publicar'><br>
+    </form>
+    <br>
     <a href=apagada> OFF</a><br/> 
     <a href=mas> mas o menos</a><br/>
     <a href=blanca> blanca</a><br/>
